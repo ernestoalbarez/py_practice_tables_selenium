@@ -36,7 +36,7 @@ class LondonStockExchange(unittest.TestCase):
             By.XPATH, Locators.variation_cell
         )
 
-        head = ["Index", "Value", "Porcentual Change"]
+        head = ["Index", "Value", "Percentual Change"]
         data = list()   # data will contain linked info from three lists
 
         for i in range(len(description_data)):
